@@ -16,7 +16,9 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Icon name="Wind" size={24} className="mr-2" />
+              <div className="bg-black text-white rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                <Icon name="Zap" size={20} />
+              </div>
               <span className="text-xl font-bold text-black">TurboVent</span>
             </div>
             <div className="flex space-x-8">
@@ -305,7 +307,9 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center mb-4">
-                <Icon name="Wind" size={24} className="mr-2" />
+                <div className="bg-white text-black rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                  <Icon name="Zap" size={20} />
+                </div>
                 <span className="text-xl font-bold">TurboVent</span>
               </div>
               <p className="text-gray-400">
